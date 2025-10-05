@@ -137,6 +137,36 @@
             margin-bottom: 0.5rem;
         }
 
+        .project-card {
+            background: #e7f3ff;
+            border-left: 5px solid #667eea;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+
+        .project-card h3 {
+            color: #004085;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card p {
+            margin: 0.3rem 0;
+        }
+
+        .project-card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+
         .contact-info {
             display: flex;
             flex-direction: column;
